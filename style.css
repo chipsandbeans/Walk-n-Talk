@@ -26,3 +26,13 @@ nav a {
     color: black;
     padding: 0 1.5rem;
 }
+
+.hero {
+    background-color: #fbdc45;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
