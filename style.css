@@ -88,8 +88,24 @@ button:hover {
     height: 100%;
 }
 
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #000000;
+}
+
 @media screen and (max-width: 768px) {
-    .hero-container {
-        grid-template-columns: 1fr;
     }
+
+@media screen and (max-width: 480px) {
+
 }
