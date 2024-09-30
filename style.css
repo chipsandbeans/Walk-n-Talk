@@ -103,6 +103,10 @@ button:hover {
     color: #000000;
 }
 
+#social-networks i:hover {
+    color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
     }
 
