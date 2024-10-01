@@ -113,6 +113,10 @@ nav a:hover {
 
 /* Footer */
 #social-networks {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     display: flex;
