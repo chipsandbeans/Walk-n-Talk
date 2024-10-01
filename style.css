@@ -95,20 +95,45 @@ nav a:hover {
     align-content: center;
 }
 
+.list {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+}
+
+.health {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .container {
     display: flex;
     align-items: center; /* Aligns items vertically */
 }
 
 .image {
-    width: auto;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     padding-left: 10%;
     padding-right: 40px;
+    padding-bottom: 20px;
 }
 
+.banana {
+    display: inline;
+}
 .text {
     padding-right: 10%;
+}
+
+.happyhuman {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
 }
 
 /* Footer */
