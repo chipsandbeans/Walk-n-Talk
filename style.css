@@ -88,6 +88,15 @@ button:hover {
     height: 100%;
 }
 
+.mental {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.health {
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
