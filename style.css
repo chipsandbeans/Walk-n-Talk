@@ -5,7 +5,9 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fbdc45;
 }
-
+body {
+    margin-bottom: 68px;
+}
 nav {
     height: 80px;
     background-color: #fbdc45;
@@ -40,6 +42,7 @@ nav a:hover {
 .hero-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .column-left {
@@ -111,14 +114,19 @@ nav a:hover {
 
 .container {
     display: flex;
-    align-items: center; /* Aligns items vertically */
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.pstyle {
+    padding-left: 10px;
 }
 
 .image {
     width: 500px;
     height: 300px;
-    padding-left: 10%;
-    padding-right: 40px;
     padding-bottom: 20px;
 }
 
@@ -130,10 +138,19 @@ nav a:hover {
 }
 
 .happyhuman {
-    display: block; /* Makes the image a block element */
-    margin: 0 auto; /* Centers the image horizontally */
-    max-width: 100%; /* Ensures the image is responsive */
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
     height: auto;
+}
+
+.accessible {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size:x-large
 }
 
 /* Footer */
