@@ -62,7 +62,7 @@ nav a:hover {
     line-height: 1.5;
 }
 
-button {
+.button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
@@ -70,9 +70,10 @@ button {
     background-color: black;
     cursor: pointer;
     border-radius: 50px;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
     background-color: #ffffff;
     color: #000000;
 }
@@ -92,6 +93,22 @@ button:hover {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+}
+
+.image {
+    width: auto;
+    height: 250px;
+    padding-left: 10%;
+    padding-right: 40px;
+}
+
+.text {
+    padding-right: 10%;
 }
 
 /* Footer */
