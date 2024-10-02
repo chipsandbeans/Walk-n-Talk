@@ -154,6 +154,66 @@ nav a:hover {
     font-size:large
 }
 
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #000000;
+    background-color: rgba(184, 160, 40, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: rgba(184, 160, 40);
+}
+
+#label {
+    background-color: rgba(184, 160, 40);
+    font-size: large;
+}
+
+.text-input {
+    background: transparent;
+    color :#000000;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(184, 160, 40);
+}
+
+.level {
+    background-color: rgba(184, 160, 40);
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #fbdc45;
+    color: #000000;
+}
+
+.join-button:hover {
+    background-color: #000000;
+    color: #fbdc45;
+}
+
 /* Footer */
 #social-networks {
     position: fixed;
